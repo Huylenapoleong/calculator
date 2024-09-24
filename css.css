@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.463);
+}
+
+.container{
+    width:350px;
+    height:610px;
+    border: solid 1px black ;
+    background-color: rgba(0, 0, 0, 0.936);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+  
+}
+.screen{
+    width: 330px;
+    height: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    position: relative;
+    top:10px;
+    display:flex;
+    color:white;
+    font-size: 75px;
+    overflow: hidden;
+   
+}
+input{
+flex:1;
+border-radius:20px ;
+background-color: transparent;
+border:none;
+}
+.fingerboard{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     bottom: 7px;
+     gap:6px;
+  
+}
+button{
+    width: 75px;
+    height: 75px;
+    
+    border-radius: 100%;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(59, 56, 56);
+   
+   
+}
+button:hover{
+  background-color: rgba(240, 242, 245, 0.265);
+  transform: scale(1.1,1.1) ;
+  transition: .2s ease-in-out;
+}
+.zero{
+    width: 150px;
+    height: 75px;
+    border-radius: 48px;
+}
+.ver{
+    background-color: orange;
+    color: white;
+}
+.hor1{
+    background-color: rgba(192, 190, 190, 0.856);
+    color: black;
+}
